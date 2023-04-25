@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+h1 {
+  width: 100%;
+  padding: 0 auto;
+  margin: 0;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 10rem;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+h1:hover {
+  background-color: white;
+  color: black;
+}
